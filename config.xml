@@ -16,7 +16,7 @@
 	
 		<!-- default font settings for all description boxes in each slider -->
 		<description>
-		<defaults heading_font="Trebuchet MS" paragraph_text_size="13" heading_text_margin="10, 25, 5, 25" round_corners="10, 10, 10, 10"/>
+		<defaults heading_font="Trebuchet MS" paragraph_text_size="13" heading_text_margin="10, 25, 5, 25" round_corners="0, 0, 0, 0"/>
 
 		</description>
 
