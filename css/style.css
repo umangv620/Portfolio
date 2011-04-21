@@ -85,22 +85,52 @@ a{
 		}
 		.header .nav a.contact{
 			background-position: -325px 0; width: 60px; height: 62px;
+			margin-right: 0px;
 		}
 
 .slideshow{
 	height: 400px;
-	width: 100%;
-	padding: 0;
 	overflow: hidden;
 	background: url(../images/slideshow_bg.png) repeat-x;
 }
 .slideshow .mainbg{
 	height:400px;
+	background: url(../images/slideshow_mainbg.png) no-repeat center;
 	overflow: hidden;
-	background: url(../images/slideshow_mainbg.png) no-repeat;
-	background-position: center;
-	
 }
+.slideshow  .holder{
+	height: 300px;
+	display: block;
+    margin:0 auto;
+	margin-top: 50px;
+	width: 958px;
+	background: #ffffff;
+	position: relative;
+	border: #092a81 1px solid;
+}
+.slideshow .holder img{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width: 958px;
+	height: 300px;
+}
+.nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(../images/arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+}
+a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+a.nivo-prevNav {
+	left:15px;
+}
+
 .content{
 	height: 500px;
 	overflow: hidden;
