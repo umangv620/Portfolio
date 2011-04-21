@@ -212,7 +212,17 @@ a{
 	display: block;
 	overflow: hidden;
 	background: url(../images/footer_nav_bg.png) repeat-x bottom center;
-	text-align: center;
-	color: #ffffff;
-	
+	color: #000000;
 }
+	.footernav .grid_4{
+		margin-top: 15px;
+	}
+	.footernav .grid_8{
+		margin-top: 15px;
+		float: right;
+	}
+		.footernav .grid_8 a{
+			margin-left: 50px;
+			text-decoration: none;
+			color: #000000;
+		}
