@@ -6,44 +6,47 @@
     <link type="text/css" href="css/text.css" rel="stylesheet" media="all" />
     <link type="text/css" href="css/960.css" rel="stylesheet" media="all" />
     <link type="text/css" href="css/style.css" rel="stylesheet" media="all" />
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
 
-<script type="text/javascript" src="js/swfobject/swfobject.js"></script>
-<script type="text/javascript">
-		var flashvars = {};
-		flashvars.xml = "config.xml";
-		var attributes = {};
-		attributes.wmode = "transparent";
-		attributes.id = "slider";
-		swfobject.embedSWF("cu3er.swf", "cu3er-container", "960", "400", "9", "expressInstall.swf", flashvars, attributes);
-</script>
 </head>
 <body>
-    <div class="container_12 header">
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-12699335-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+    <header class="container_12 header">
 		<div class="logobox">
 			<a class="logo" href="#" title="Umang Vaish">Umang Vaish</a>
 			<a class="page" href="#" title="Portfolio">Portfolio</a>
 		</div>
-		<div class="nav">
+		<nav class="nav">
 			<a href="#" title="Home" class="home active">Home</a>
 			<a href="#" title="About" class="about">Home</a>
 			<a href="#" title="Blog" class="blog">Blog</a>
 			<a href="#" title="Portfolio" class="portfolio">Portfolio</a>
 			<a href="#" title="Contact" class="contact">Contact</a>
-		</div>
-    </div>
+		</nav>
+    </header>
  
-	<div class="slideshow">
+	<aside class="slideshow">
 		<div class="mainbg container_12">
 			<div class="holder">
 				<div class="slider"><div id="cu3er-container"><a href="http://www.adobe.com/go/getflashplayer"> <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></div></div>
 			</div>
 		</div>
-	</div>
+	</aside>
 	
-    <div class="content">
+    <section class="content">
         <div class="container_12">
-			<div class="grid_4">
+			<article class="grid_4">
 				<h2>
 					About Me<br />
 				</h2>
@@ -51,54 +54,53 @@
 				<img src="images/icons/user.png" class="fleft">
 				My name is Umang Vaish, and I am a student residing in Princeton, New Jersey. I currently go to Montgomery High School. I like to design websites, practice Tae Kwon Do, surf the internet and play games. Oh, and I also like to code. I have been the Programming captain of F.I.R.S.T. Team 1403 for the past two years, and I have coded the robot in a popular program called LabVIEW. Now that I am graduating, I will be studying engineering in college.  </p><p>
 				If you want a more complete bio, visit the About me page!</p>
-			</div>
-			<div class="grid_4">
+			</article>
+			<article class="grid_4">
 				<h2>
 					<strong>My Work</strong><br />
 				</h2>
 				<p> As you've probably already seen, I have some experience creating websites. My first client was Dushahra, a non-profit cultural organization. </p><p>
 				You can see more images of my work for Dushahra and other organizations in my Portfolio.</p>
-			</div>
-			<div class="grid_4">
+			</article>
+			<article class="grid_4">
 				<h2>
 					<strong>Contact me</strong><br />
 				</h2>
 				<p> Feel free to contact me at any time. I always appreciate any feedback about my work, any suggestions on how I can improve it, and any job offers you might hold for me.  </p><p> Please visit the Contact me page to send me a quick note or to find other ways of reaching me.</p>
-			</div>
-			<div class="clear"></div>
+			</article>
 		</div>
-    </div>
+    </section>
     <div class="footer">
-        <div class="container_12">
+        <section class="container_12">
             <div class="grid_4">
                 <h2 class="title">Latest Blog Entries</h2>
-				<div class="blogpost">
+				<article class="blogpost">
 					<h2>First Blog Post</h2>
 					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare bibendum eleifend.</p> 
-				</div>
-				<div class="blogpost">
+				</article>
+				<article class="blogpost">
 					<h2>First Blog Post</h2>
 					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare bibendum eleifend.</p> 
-				</div>
-				<div class="blogpost">
+				</article>
+				<article class="blogpost">
 					<h2>First Blog Post</h2>
 					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare bibendum eleifend.</p> 
-				</div>
+				</article>
             </div>
 			<div class="grid_4">
                 <h2 class="title">Recent Comments</h2>
-				<div class="comment">
+				<article class="comment">
 					<h2>First Blog Post</h2>
 					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare bibendum eleifend.</p> 
-				</div>
-				<div class="comment">
+				</article>
+				<article class="comment">
 					<h2>First Blog Post</h2>
 					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare bibendum eleifend.</p> 
-				</div>
-				<div class="comment">
+				</article>
+				<article class="comment">
 					<h2>First Blog Post</h2>
 					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare bibendum eleifend.</p> 
-				</div>
+				</article>
             </div>
 			<div class="grid_4">
                 <h2 class="title">Social Media</h2>
@@ -115,8 +117,9 @@
 					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare bibendum eleifend.</p> 
 				</div></div>
             </div>
-        </div>
-    </div><div class="footernav">
+        </section>
+    </div>
+	<footer class="footernav">
         <div class="container_12">
             <div class="grid_4">
                 Copyright 2011 umangvaish.co.cc
@@ -130,6 +133,17 @@
 				<a href="">Manage</a>
 			</div>
         </div>
-    </div>
+    </footer>
+
+<script type="text/javascript" src="js/swfobject/swfobject.js"></script>
+<script type="text/javascript">
+		var flashvars = {};
+		flashvars.xml = "config.xml";
+		var attributes = {};
+		attributes.wmode = "transparent";
+		attributes.id = "slider";
+		swfobject.embedSWF("cu3er.swf", "cu3er-container", "960", "400", "9", "expressInstall.swf", flashvars, attributes);
+</script>
+
 </body>
 </html>

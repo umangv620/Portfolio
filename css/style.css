@@ -23,18 +23,23 @@ a{
 	font-family: angelina;
 	src: url('fonts/angelina.ttf');
 }
+/* HTML5 tags */
+header, section, footer,
+aside, nav, article, figure {
+	display: block;
+}
 
 
-.header{
+header{
 	height: 100px;
 	overflow: hidden;
 	padding: 0;
 }
-	.header .logobox{
+	header .logobox{
 		display: inline;
 		position: relative;
 	}
-	.header a.logo {
+	header a.logo {
 		text-indent: -10000px;
 		display: block;
 		width: 271px;
@@ -43,7 +48,7 @@ a{
 		position: absolute;
 		
 	}
-	.header a.page{
+	header a.page{
 		text-indent: -10000px;
 		display: block;
 		width: 139px;
@@ -52,10 +57,10 @@ a{
 		position: absolute;
 		margin-left: 271px;
 	}
-	.header .nav{
+	header .nav{
 		float: right;
 	}
-	.header .nav a{
+	header .nav a{
 		text-indent: -10000px;
 		position: relative;
 		float: left;
@@ -64,34 +69,34 @@ a{
 		margin: 33px 30px 0 0;
 		background: url(../images/sprites.png) no-repeat top left;
 	}
-		.header .nav a.home:hover, .header .nav a.home.active{
+		header .nav a.home:hover, header .nav a.home.active{
 			background-position: -390px 0; width: 60px; height: 62px;
 		}
-		.header .nav a.about:hover, .header .nav a.about.active{
+		header .nav a.about:hover, header .nav a.about.active{
 			 background-position: 0 0; width: 60px; height: 62px;
 		}
-		.header .nav a.blog:hover, .header .nav a.blog.active{
+		header .nav a.blog:hover, header .nav a.blog.active{
 			background-position: -130px 0; width: 60px; height: 62px;
 		}
-		.header .nav a.portfolio:hover, .header .nav a.portfolio.active{
+		header .nav a.portfolio:hover, header .nav a.portfolio.active{
 			background-position: -520px 0; width: 80px; height: 62px;
 		}
-		.header .nav a.contact:hover, .header .nav a.contact.active{
+		header .nav a.contact:hover, header .nav a.contact.active{
 			background-position: -260px 0; width: 60px; height: 62px;
 		}
-		.header .nav a.home{
+		header .nav a.home{
 			background-position: -455px 0; width: 60px; height: 62px;
 		}
-		.header .nav a.about{
+		header .nav a.about{
 			 background-position: -65px 0; width: 60px; height: 62px;
 		}
-		.header .nav a.blog{
+		header .nav a.blog{
 			background-position: -195px 0; width: 60px; height: 62px;
 		}
-		.header .nav a.portfolio{
+		header .nav a.portfolio{
 			background-position: -605px 0; width: 80px; height: 62px;
 		}
-		.header .nav a.contact{
+		header .nav a.contact{
 			background-position: -325px 0; width: 60px; height: 62px;
 			margin-right: 0px;
 		}
