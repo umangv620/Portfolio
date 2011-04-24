@@ -30,16 +30,16 @@ aside, nav, article, figure {
 }
 
 
-header{
+.header{
 	height: 100px;
 	overflow: hidden;
 	padding: 0;
 }
-	header .logobox{
+	.header .logobox{
 		display: inline;
 		position: relative;
 	}
-	header a.logo {
+	.header .logobox a.logo {
 		text-indent: -10000px;
 		display: block;
 		width: 271px;
@@ -48,7 +48,7 @@ header{
 		position: absolute;
 		
 	}
-	header a.page{
+	.header a.pagel{
 		text-indent: -10000px;
 		display: block;
 		width: 139px;
@@ -57,10 +57,22 @@ header{
 		position: absolute;
 		margin-left: 271px;
 	}
-	header .nav{
+		.header a.aboutl{
+			background: url(../images/header_about.png) no-repeat;
+		}
+		.header a.blogl{
+			background: url(../images/header_blog.png) no-repeat;
+		}
+		.header a.portfoliol{
+			background: url(../images/header_portfolio.png) no-repeat;
+		}
+		.header a.contactl{
+			background: url(../images/header_contact.png) no-repeat;
+		}
+	.header .nav{
 		float: right;
 	}
-	header .nav a{
+	.header .nav a{
 		text-indent: -10000px;
 		position: relative;
 		float: left;
@@ -69,34 +81,34 @@ header{
 		margin: 33px 30px 0 0;
 		background: url(../images/sprites.png) no-repeat top left;
 	}
-		header .nav a.home:hover, header .nav a.home.active{
+		.header .nav a.home:hover, .header .nav a.home.active{
 			background-position: -390px 0; width: 60px; height: 62px;
 		}
-		header .nav a.about:hover, header .nav a.about.active{
+		.header .nav a.about:hover, .header .nav a.about.active{
 			 background-position: 0 0; width: 60px; height: 62px;
 		}
-		header .nav a.blog:hover, header .nav a.blog.active{
+		.header .nav a.blog:hover, .header .nav a.blog.active{
 			background-position: -130px 0; width: 60px; height: 62px;
 		}
-		header .nav a.portfolio:hover, header .nav a.portfolio.active{
+		.header .nav a.portfolio:hover, .header .nav a.portfolio.active{
 			background-position: -520px 0; width: 80px; height: 62px;
 		}
-		header .nav a.contact:hover, header .nav a.contact.active{
+		.header .nav a.contact:hover, .header .nav a.contact.active{
 			background-position: -260px 0; width: 60px; height: 62px;
 		}
-		header .nav a.home{
+		.header .nav a.home{
 			background-position: -455px 0; width: 60px; height: 62px;
 		}
-		header .nav a.about{
+		.header .nav a.about{
 			 background-position: -65px 0; width: 60px; height: 62px;
 		}
-		header .nav a.blog{
+		.header .nav a.blog{
 			background-position: -195px 0; width: 60px; height: 62px;
 		}
-		header .nav a.portfolio{
+		.header .nav a.portfolio{
 			background-position: -605px 0; width: 80px; height: 62px;
 		}
-		header .nav a.contact{
+		.header .nav a.contact{
 			background-position: -325px 0; width: 60px; height: 62px;
 			margin-right: 0px;
 		}
@@ -125,14 +137,34 @@ header{
 		background: #ffffff;
 		border: #092a81 1px solid;
 	}
-
+.page{
+	height: 100px;
+	overflow: hidden;
+	background: url(../images/page_bar_bg.png) repeat-x;
+	color: #ffffff;
+}
+	.page .grid_4{
+		font-family: angelina;
+		font-size: 60px;
+		padding-top: 20px;
+		margin-top: 25px;
+		padding-bottom: 20px;
+		border-right: 1px dashed white;
+	}
+		.page .grid_4 .title{
+			float: right;
+			margin-right: 10px;
+		}
+	.page .grid_8{
+		margin-top: 45px;
+		margin-left: -1px;
+	}
 .content{
 	height: auto;
 	background: url(../images/content_bg.png) repeat-x;
 	overflow: hidden;
 }
-
-	.content h2 {
+	.content article.grid_4 h2 {
 		font-family: angelina;
 		font-size: 50px;
 		line-height: 30px;
@@ -140,15 +172,56 @@ header{
 		text-align: center;
 		margin: 20px 0 30px 10px;
 	}
-	.content .grid_4 p img.fleft{
+	.content article.grid_4 p img.fleft{
 		float: left;
 		padding: 10px;
 		margin: 0;
 	}
-	.content .grid_4 p{
+	.content article.grid_4 p{
 		margin: 0 0 50px 0;
 	}
-
+	.content aside {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+		.content aside.grid_8 article header{
+			border-bottom: 1px dotted gray;
+			clear: both;
+		}
+			.content aside.grid_8 article header h3{
+				margin-bottom: 5px;
+			}
+			.content aside.grid_8 article header footer {
+				font-size: 12px;
+			}
+			.content aside.grid_8 article header footer a.numcomments{
+				float: right;
+				color: #696969;
+				clear: both;
+			}
+		.content aside.grid_8 article figure img{
+			border: 1px solid #cccccc;
+			padding: 5px;
+			margin-top: 20px;
+			height: 225px;
+			width: 620px;
+		}
+		.content aside.grid_8 article a.readmore{
+			color: #696969;
+			float: right;
+			margin-bottom: 10px;
+		}
+		.content aside.grid_4{
+			margin-left: 40px;
+			margin-right: -30px;
+		}
+			.content aside.grid_4 ul *{
+				list-style: none;
+				color: #696969;
+			}
+			.content aside.grid_4 ul li{
+				padding-bottom: 15px;
+			}
 .footer{
 	width: 100%;
 	height: 409px;
